@@ -10,18 +10,12 @@
 
     <body>
 
-        <div id="myQuiz">
+        <div id="myQuiz" ng-controller="QuizController">
 
             <h1>Test Your Knowledge:<span>Saturn</span></h1>
 
             <div class="progress">
-
-                <div class="answered correct"></div>
-
-                <div class="on"></div>
-
-                <div></div>
-
+                {{totalQuestions}}
             </div>
 
             <div class="intro">
